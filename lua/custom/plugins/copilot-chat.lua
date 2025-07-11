@@ -32,6 +32,23 @@ return {
         -- Performance settings
         temperature = 0.1,
         
+        -- Debug settings (temporär aktivieren)
+        debug = true,
+        log_level = 'debug',
+        
+        -- Provider-Konfiguration für Agents
+        providers = {
+          copilot = {
+            -- Explizit aktivieren
+          },
+          github_models = {
+            -- GitHub Marketplace Models
+          },
+          copilot_embeddings = {
+            -- Copilot Embeddings
+          },
+        },
+        
         -- UI Configuration
         window = {
           layout = 'vertical', -- 'vertical', 'horizontal', 'float'
@@ -57,6 +74,28 @@ return {
         
         -- Chat features
         chat_autocomplete = true,
+        
+        -- Alternative Agent-Simulation über sticky prompts
+        sticky = {
+          '> You are a specialized coding assistant with the following capabilities:',
+          '> - Code analysis and review',
+          '> - Go development expertise', 
+          '> - Security and performance analysis',
+          '> - Test generation and debugging',
+          '> Please act as a knowledgeable agent for these tasks.',
+        },
+        contexts = {
+          buffer = {},
+          buffers = {},
+          file = {},
+          files = {},
+          filenames = {},
+          git = {},
+          url = {},
+          register = {},
+          quickfix = {},
+          system = {},
+        },
         
         -- Custom prompts for Go development
         prompts = {

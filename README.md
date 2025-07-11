@@ -10,6 +10,40 @@ A starting point for Neovim that is:
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
+## 🎨 Available Color Schemes
+
+This configuration includes the most popular color schemes for Neovim:
+
+### 🌟 **Popular Themes:**
+- **Gruvbox** - Retro groove color scheme
+- **Catppuccin** - Modern and elegant (Latte, Frappe, Macchiato, Mocha variants)
+- **Tokyo Night** - Clean dark theme (default)
+- **Nord** - Arctic, north-bluish clean theme
+- **Dracula** - Dark theme with vibrant colors
+- **OneDark** - Atom's iconic One Dark theme
+- **Nightfox** - Collection of dark and light themes
+- **Rose Pine** - Soho vibes theme (Main, Moon, Dawn variants)
+- **Kanagawa** - Inspired by Japanese painting (Wave, Dragon, Lotus variants)
+- **Material** - Material Design theme
+
+### 🚀 **Quick Theme Switching:**
+- **`<space>th`** - Open theme selector with preview
+- **`<space>tg`** - Switch to Gruvbox
+- **`<space>tc`** - Switch to Catppuccin
+- **`<space>tn`** - Switch to Nord  
+- **`<space>td`** - Switch to Dracula
+- **`<space>to`** - Switch to OneDark
+- **`<space>tr`** - Switch to Rose Pine
+- **`<space>tk`** - Switch to Kanagawa
+- **`<space>tm`** - Switch to Material
+- **`<space>tt`** - Switch to Tokyo Night
+
+### 💾 **Theme Persistence:**
+Your selected theme is automatically saved and restored on restart.
+
+### 📝 **Commands:**
+You can also use commands like `:ThemeGruvbox`, `:ThemeCatppuccin`, etc.
+
 ## Installation
 
 ### Install Neovim
